@@ -1,0 +1,183 @@
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 1px;    
+}
+.field {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+.checkbox-wrap {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+.navigation-catalog {
+    margin-top: 61px;
+}
+.navigation-catalog {
+    margin-top: 60px;
+}
+.path {
+    margin-top: 6px;
+}
+.navigation-catalog .path_1{
+    margin-right: 16px;
+}
+.navigation-catalog .path_3 {
+    margin-left: 15px;
+}
+/*FORM*/
+.form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+    max-width: 1180px;
+    max-height: 542px;
+}
+.contact-form {        
+    margin-right: auto;
+    padding: 42px 36px;
+    width: 680px;
+    height: 541px;
+    background-color: #e5eaf8
+}
+.container-form {   
+    margin: -21px 0px;  
+    width: 600px;
+    height: 458px;
+    margin-top: 0px;
+    background-color: #e5eaf8
+}
+.field {
+    margin-bottom: 20px;
+    margin-left: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+}
+.field label {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    margin-bottom: 6px;
+}
+.field input {
+    padding: 0 20px;
+    height: 47px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);    
+}
+.field input:hover {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: none;
+}
+.form-top-wrapper {    
+    display: -webkit-box;    
+    display: -ms-flexbox;    
+    display: flex;
+}
+.form-top-wrapper .field{
+    width: 290px;
+}
+.form-top-wrapper .field:first-child{
+    margin-right: 20px;
+}
+.checkbox-label {
+    position: relative;
+    padding-left: 28px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #C29974;    
+}
+.checkbox-label::before {
+    content: "";
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    background-color: #eeeeee;
+    border: 2px solid #C29974;
+}
+textarea {    
+    width: 600px;
+    height: 150px;    
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.checkbox-input{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin-left: 6px;
+    margin-right: 14px;
+}
+.checkbox-input::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #C29974;
+    margin-left: 0px;
+    margin-top: 0px
+}
+.checkbox-wrap {
+    margin-top: 16px;
+}
+
+.modal-form-label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 3px;    
+}
+.contact-box {
+    margin-top: 50px;
+    margin-left: 128px;    
+}
+.contact-text {
+    margin-bottom: 20px;
+}
+.contact-expert-title{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #C29974;
+    margin-top: 20px;
+}
+.form-btn {
+    margin-left: 4px;
+}
+.footer {
+    margin-top: 110px;
+}.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}
